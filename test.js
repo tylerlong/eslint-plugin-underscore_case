@@ -1,17 +1,17 @@
 var RuleTester = require('eslint').RuleTester
-var rule = require('./').rules.snakecase
+var rule = require('./').rules.underscore_case
 
 var ruleTester = new RuleTester()
-ruleTester.run('snake_case', rule, {
+ruleTester.run('underscore_case', rule, {
   valid: [
-    'var snake_case = true;',
-    'function another_snake_case(){}',
+    'var Underscore_Case = true;',
+    'function another_underscore_case(){}',
     'function SomeClass() {}',
     'new SomeClass()',
     'SomeClass.method()'
   ],
   invalid: [{
-    code: 'var notSnakeCase',
-    errors: [{ message: 'Identifiers must be snake case: notSnakeCase', fix: { text: 'not_snake_case' } }]
+    code: 'var notUnderscoreCase',
+    errors: [{ message: 'Identifiers must be underscore_case: notUnderscoreCase', fix: { text: 'not_underscore_case' } }]
   }]
 })
