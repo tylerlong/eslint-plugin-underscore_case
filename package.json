@@ -1,0 +1,12 @@
+{
+  "name": "eslint-underscore_case",
+  "version": "0.1.0",
+  "description": "ESLint plugin to enforce \"underscore_case\" (different from snake_case).",
+  "main": "index.js",
+  "repository": "git@github.com:tylerlong/eslint-underscore_case.git",
+  "author": "Tyler Long <tyler4long@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.17.1"
+  }
+}
