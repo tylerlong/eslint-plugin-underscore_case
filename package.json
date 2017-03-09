@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-underscore_case",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "ESLint plugin to enforce \"underscore_case\" (different from snake_case).",
   "main": "index.js",
   "scripts": {

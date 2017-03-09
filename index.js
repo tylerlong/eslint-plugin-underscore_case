@@ -9,7 +9,7 @@ module.exports = {
           Identifier (node) {
             var name = node.name
             var split = name.split(/(?=[a-z][A-Z])/)
-            if (split.length > 1) {
+            if (split.length > 1 && ['VariableDeclarator', 'FunctionDeclaration'].indexOf(node.parent.type) > -1) {
               context.report({
                 message: 'Identifiers must be underscore_case: {{ identifier }}',
                 node: node,
