@@ -1,9 +1,9 @@
-# eslint-underscore_case
+# eslint-plugin-underscore_case
 
 ESLint plugin to enforce "underscore_case" (different from snake_case).
 
 
-## What is UnderScore_Case
+## What is underscore_case
 
 underscore_case is similar to snake_case but allows uppercase characters.
 
@@ -28,7 +28,7 @@ Please note that: snake_case is also valid underscore_case.
 ## Usage
 
 ```
-yarn add --dev eslint-underscore_case
+yarn add --dev eslint-plugin-underscore_case
 ```
 
 ```json
